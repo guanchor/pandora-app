@@ -3,4 +3,4 @@ docker run \
   -it \
   -v $(pwd)/app:/home/nsuser/pandora-app \
   scratchy/nativescript-cli:latest \
-  bash -c "cd ~ && tns create pandora-app "
+  bash -c "cd ~ && tns create pandora-app"
